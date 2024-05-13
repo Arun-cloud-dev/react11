@@ -1,0 +1,30 @@
+/* styles.css */
+
+/* Style for the square button */
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+  }
+  
+  /* Style for the board row */
+  .board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+  
+  /* Style for the game status */
+  .game-info {
+    margin-top: 20px;
+  }
+  
